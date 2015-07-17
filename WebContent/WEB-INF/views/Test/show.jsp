@@ -8,5 +8,7 @@
 </head>
 <body>
 <p>Show.jsp<p>
+
+<p><strong>Welcome </strong>${user.firstName}<p>
 </body>
 </html>

@@ -33,11 +33,12 @@ public class UserController {
 	}
 	
 	@RequestMapping(value = "/testsave", method = RequestMethod.POST)
-	public ModelAndView saveUser(@ModelAttribute("command") UserBean userBean, 
+	public ModelAndView saveUser(@ModelAttribute("user") UserBean userBean, 
 			BindingResult result) {
 		UserBean user = prepareModel(userBean);
 		userService.addUser(user);
 		//return new ModelAndView("redirect:/Test/show");
+		
 		return new ModelAndView("Test/show");
 	}
 
