@@ -37,7 +37,7 @@ http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 		<property name="dataSource" ref="dataSource" />
 		<property name="annotatedClasses">
 			<list>
-				<value>com.dineshonjava.model.Employee</value>
+				<value>com.dashboard.model.User</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
