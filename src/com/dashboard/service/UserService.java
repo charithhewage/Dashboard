@@ -1,14 +1,9 @@
 package com.dashboard.service;
 
-import com.dashboard.bean.UserBean;
+import com.dashboard.model.User;
 
 public interface UserService {
-	public void addUser(UserBean user);
-
-	//public List<User> listUser();
 	
-	//public User getEmployee(int id);
-	
-	//public void deleteEmployee(User user);
+	public void addUser(User employee);
 
 }

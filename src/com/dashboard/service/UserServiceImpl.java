@@ -21,10 +21,4 @@ public class UserServiceImpl implements UserService {
 		userDao.addUser(user);
 	}
 
-	@Override
-	public void addUser(UserBean user) {
-		// TODO Auto-generated method stub
-		
-	}
-
 }
