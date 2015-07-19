@@ -4,6 +4,6 @@ import com.dashboard.model.User;
 
 public interface UserService {
 	
-	public void addUser(User employee);
+	public void addUser(User user);
 
 }

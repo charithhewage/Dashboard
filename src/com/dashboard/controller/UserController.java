@@ -48,13 +48,13 @@ public class UserController {
 	}
 
 	private User prepareModel(UserBean userBean){
-		User employee = new User();
-		employee.setFirstName(userBean.getFirstName());
-		employee.setLastName(userBean.getLastName());
-		employee.setEmail(userBean.getEmail());
-		employee.setPassword(userBean.getPassword());
-		employee.setRole(userBean.getRole());
-		return employee;
+		User user = new User();
+		user.setFirstName(userBean.getFirstName());
+		user.setLastName(userBean.getLastName());
+		user.setEmail(userBean.getEmail());
+		user.setPassword(userBean.getPassword());
+		user.setRole(userBean.getRole());
+		return user;
 	}
 
 
